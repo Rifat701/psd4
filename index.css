@@ -1,0 +1,555 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* navbar start */
+
+.navbg {
+  width: 100%;
+  height: 125px;
+  background-color: white;
+}
+.navbg .navbg_content .logo,
+.list,
+.search {
+  float: left;
+}
+.navbg .navbg_content .logo img {
+  padding: 22px 0 0 75px;
+}
+.navbg .navbg_content .list {
+  list-style: none;
+  padding: 47px 0 0 520px;
+}
+.navbg .navbg_content .list a {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 800;
+  color: #54524f;
+  padding-right: 36px;
+}
+
+.navbg .navbg_content .search {
+  padding-top: 34px;
+}
+.search input {
+  width: 145px;
+  height: 37px;
+  border-radius: 30px;
+  background-color: #c3bfbc;
+  border: 1px solid #c3bfbc;
+  float: left;
+}
+.search a {
+  margin: 6px 0 0 -48px;
+  float: left;
+  transition: transform 0.3s;
+}
+.search a:hover {
+  transform: scale(1.2);
+}
+.search a img {
+  width: 27px;
+  height: 28px;
+}
+
+/* navbar end */
+
+/* group 1 start */
+
+.group1bg {
+  width: 100%;
+  height: 810px;
+  background-image: url(img/group1.png);
+}
+.group1bg .group1bg_content h1 {
+  font-size: 75px;
+  font-weight: 800;
+  color: #deb37e;
+  padding: 225px 0 0 76px;
+}
+.group1bg .group1bg_content h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #54524f;
+  padding: 10px 0 0 80px;
+  letter-spacing: 6px;
+}
+.group1bg .group1bg_content a {
+  font-size: 25px;
+  font-weight: 800;
+  color: #776c64;
+  text-transform: uppercase;
+}
+.group1bg .group1bg_content .group1_a {
+  margin: 65px 0 0 110px;
+}
+.group1bg .group1bg_content p {
+  font-size: 17px;
+  font-weight: 400;
+  color: #776c64;
+  padding: 40px 0 0 80px;
+}
+
+/* group 1 end */
+
+/* group 2 start */
+
+.group2bg {
+  width: 100%;
+  height: 980px;
+  background-image: url(img/group2-background.png);
+}
+.group2bg .group2bg_content .text {
+  text-align: center;
+}
+.group2bg .group2bg_content .text h2 {
+  color: #e2a355;
+  font-size: 65px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 100px 0 20px 0;
+}
+.group2bg .group2bg_content .text p {
+  color: #908983;
+  font-size: 22px;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+.group2bg .group2bg_content .group2-box {
+  width: 100%;
+  height: 450px;
+}
+.group2bg .group2bg_content .group2-box .box1 {
+  width: 300px;
+  height: 450px;
+  background-color: #7f7770;
+  float: left;
+  margin: 0 0 0 170px;
+}
+.group2bg .group2bg_content .group2-box .box2 {
+  width: 300px;
+  height: 450px;
+  background-color: #7f7770;
+  float: left;
+  margin: 0 0 0 55px;
+}
+.group2bg .group2bg_content .group2-box .box3 {
+  width: 300px;
+  height: 450px;
+  background-color: #7f7770;
+  float: left;
+  margin: 0 0 0 55px;
+}
+.group2bg .group2bg_content .group2-box .box1 img {
+  width: 100%;
+  height: 60%;
+}
+.group2bg .group2bg_content .group2-box .box2 img {
+  width: 100%;
+  height: 60%;
+}
+.group2bg .group2bg_content .group2-box .box3 img {
+  width: 100%;
+  height: 60%;
+}
+.group2bg .group2bg_content .group2-box .box1 h4 {
+  padding: 27px 0 0 15px;
+  font-size: 24px;
+  color: white;
+}
+.group2bg .group2bg_content .group2-box .box2 h4 {
+  padding: 27px 0 0 15px;
+  font-size: 24px;
+  color: white;
+}
+.group2bg .group2bg_content .group2-box .box3 h4 {
+  padding: 27px 0 0 15px;
+  font-size: 24px;
+  color: white;
+}
+.group2bg .group2bg_content .group2-box .box1 p {
+  padding: 27px 0 0 15px;
+  font-size: 19px;
+  color: white;
+}
+.group2bg .group2bg_content .group2-box .box2 p {
+  padding: 27px 0 0 15px;
+  font-size: 19px;
+  color: white;
+}
+.group2bg .group2bg_content .group2-box .box3 p {
+  padding: 27px 0 0 15px;
+  font-size: 19px;
+  color: white;
+}
+.group2bg .group2bg_content .group2-button {
+  padding: 70px 0 120px 0;
+  text-align: center;
+}
+.group2bg .group2bg_content .group2-button a {
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  background-color: #7f7770;
+  padding: 15px 30px;
+  border-radius: 30px;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+}
+/* group 2 end */
+
+/* group 3 start */
+
+.group3bg {
+  width: 100%;
+  height: 1300px;
+  background-color: aquamarine;
+}
+.group3bg .group3bg_content .group3-row1 {
+  width: 100%;
+  height: 650px;
+  background-color: #7f7770;
+}
+.group3bg .group3bg_content .group3-row1 .row1-img {
+  float: left;
+  width: 50%;
+}
+.group3bg .group3bg_content .group3-row1 .row1-img img {
+  width: 100%;
+  height: 650px;
+}
+.group3bg .group3bg_content .group3-row1 .row1-text {
+  float: left;
+  width: 50%;
+}
+.group3bg .group3bg_content .group3-row1 .row1-text h2 {
+  font-size: 60px;
+  color: white;
+  padding: 100px 0 0 66px;
+}
+.group3bg .group3bg_content .group3-row1 .row1-text p {
+  font-size: 22px;
+  color: white;
+  padding: 32px 0 0 66px;
+}
+.group3bg .group3bg_content .group3-row1 .row1-text .row1-a {
+  padding: 65px 0 0 68px;
+}
+.group3bg .group3bg_content .group3-row1 .row1-text .row1-a a {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: #e2a355;
+  padding: 15px 40px;
+  color: white;
+  border-radius: 30px;
+}
+
+.group3bg .group3bg_content .group3-row2 {
+  width: 100%;
+  height: 650px;
+  background-color: #deb37e;
+}
+.group3bg .group3bg_content .group3-row2 .row2-img {
+  float: right;
+  width: 50%;
+}
+.group3bg .group3bg_content .group3-row2 .row2-img img {
+  width: 100%;
+  height: 650px;
+}
+.group3bg .group3bg_content .group3-row2 .row2-text {
+  float: right;
+  width: 50%;
+}
+.group3bg .group3bg_content .group3-row2 .row2-text h2 {
+  font-size: 60px;
+  color: white;
+  padding: 100px 0 0 66px;
+}
+.group3bg .group3bg_content .group3-row2 .row2-text p {
+  font-size: 22px;
+  color: white;
+  padding: 32px 0 0 66px;
+}
+.group3bg .group3bg_content .group3-row2 .row2-text .row2-a {
+  padding: 65px 0 0 68px;
+}
+.group3bg .group3bg_content .group3-row2 .row2-text .row2-a a {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: #e2a355;
+  padding: 15px 40px;
+  color: white;
+  border-radius: 30px;
+}
+
+/* group 3 end */
+
+/* group 4 start */
+.group4bg {
+  width: 100%;
+  height: 800px;
+  background-image: url(img/group4-background.png);
+}
+.group4bg .group4bg_content {
+  text-align: center;
+}
+.group4bg .group4bg_content h1 {
+  font-size: 50px;
+  font-weight: 600;
+  padding-top: 275px;
+  letter-spacing: 2px;
+  color: white;
+}
+.group4bg .group4bg_content p {
+  font-size: 26px;
+  padding-top: 45px;
+  color: #dbdbdb;
+}
+
+/* group 4 end */
+
+/* group 5 start */
+
+.group5bg {
+  width: 100%;
+  height: 900px;
+  background-image: url(img/group5-background.png);
+}
+.group5bg .group5bg_content h1 {
+  font-size: 60px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 400px 96px 0 0;
+  letter-spacing: 4px;
+  text-align: right;
+  color: #54524f;
+}
+.group5bg .group5bg_content h1 span {
+  color: #deb37e;
+}
+
+/* group 5 end */
+
+/* group 6  start */
+.group6bg {
+  width: 100%;
+  height: 350px;
+}
+.group6bg .group6bg_content .lorem1,
+.lorem2,
+.lorem3 {
+  float: left;
+}
+.group6bg .group6bg_content .lorem1,
+.lorem2,
+.lorem3,
+h3 {
+  font-size: 25px;
+  color: #deb37e;
+}
+.group6bg .group6bg_content .lorem1,
+.lorem2,
+.lorem3,
+p {
+  font-size: 16px;
+  color: #333d42;
+  padding-top: 15px;
+}
+.group6bg .group6bg_content .lorem1 {
+  padding: 110px 0 0 210px;
+}
+.group6bg .group6bg_content .lorem2 {
+  padding: 110px 0 0 70px;
+}
+.group6bg .group6bg_content .lorem3 {
+  padding: 110px 0 0 70px;
+}
+
+/* group 6  end */
+
+/* group 7 start */
+
+.group7bg {
+  width: 100%;
+  height: 500px;
+  background-image: url(img/group7-background.png);
+}
+.group7bg .group7bg_content {
+  text-align: center;
+  color: #3f3f3f;
+}
+.group7bg .group7bg_content h1 {
+  font-size: 90px;
+  font-weight: 700;
+  padding-top: 130px;
+}
+.group7bg .group7bg_content h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.group7bg .group7bg_content p {
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 65px;
+}
+
+/* group 7 end */
+
+/* group 8 start */
+
+.group8bg {
+  width: 100%;
+  height: 731px;
+  background-image: url(img/group8-background.png);
+}
+.group8bg .group8bg_content {
+  text-align: center;
+}
+.group8bg .group8bg_content h2 {
+  font-size: 80px;
+  font-weight: 700;
+  color: white;
+  padding-top: 170px;
+  text-transform: capitalize;
+}
+.group8bg .group8bg_content p {
+  font-size: 22px;
+  font-weight: 400;
+  color: #54524f;
+  padding-top: 40px;
+}
+.group8bg .group8-input .input {
+  padding: 95px 0 0 415px;
+}
+.group8bg .group8-input .input input {
+  width: 450px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.group8bg .group8-input .subscribe {
+  margin: -34px 0 0 766px;
+}
+.group8bg .group8-input .subscribe a {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #54524f;
+  padding: 13px 40px;
+  border-radius: 30px;
+  letter-spacing: 1px;
+}
+
+/* group 8 end */
+
+/* group 9 start */
+
+.group9bg {
+  width: 100%;
+  height: 550px;
+  background-image: url(img/group9-background.png);
+}
+.group9bg .group9bg_content .title,
+.about,
+.service,
+.others {
+  float: left;
+}
+
+.group9bg .group9bg_content .title {
+  padding: 230px 0 0 120px;
+}
+.group9bg .group9bg_content .title h3 {
+  font-size: 35px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: white;
+}
+.group9bg .group9bg_content .title p {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: white;
+}
+.group9bg .group9bg_content .title .social {
+  display: flex;
+}
+.group9bg .group9bg_content .title .social a {
+  color: white;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 70%;
+  color: #7f7770;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+.group9bg .group9bg_content .title .social a {
+  margin: 20px 5px;
+}
+
+.group9bg .group9bg_content .about a {
+  display: block;
+  color: white;
+  padding-top: 13px;
+}
+.group9bg .group9bg_content .service a {
+  display: block;
+  color: white;
+  padding-top: 13px;
+}
+.group9bg .group9bg_content .others a {
+  display: block;
+  color: white;
+  padding-top: 13px;
+}
+.group9bg .group9bg_content .about,
+.service,
+.others {
+  padding: 230px 0 0 120px;
+}
+.group9bg .group9bg_content .about h3 {
+  font-size: 34px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: white;
+}
+.group9bg .group9bg_content .service h3 {
+  font-size: 34px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: white;
+}
+.group9bg .group9bg_content .others h3 {
+  font-size: 34px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: white;
+}
+
+/* group 9 end */
